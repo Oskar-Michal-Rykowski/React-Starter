@@ -24,6 +24,7 @@ class List extends React.Component {
     }
     
     addColumn(title) {
+        console.log('this.props.columns', this.props.columns);
         this.setState(state => (
             {
                 columns: [
