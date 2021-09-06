@@ -46,7 +46,7 @@ class List extends React.Component {
     return (
       <section className={styles.component}>
         <Hero titleText={title} mainImage={image} />
-        <div className={description}>{ReactHtmlParser(description)}</div>
+        <div className={styles.description}>{ReactHtmlParser(description)}</div>
 
         <div className={styles.columns}>
           {columns.map((columnData) => (
