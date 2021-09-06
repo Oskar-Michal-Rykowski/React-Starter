@@ -5,6 +5,7 @@ import Card from '../Card/Card.js';
 // import Creator from '../Creator/Creator.js';
 // import { settings } from '../../data/dataStore';
 import Icon from '../Icon/Icon';
+import { settings } from '../../data/dataStore';
 
 class Column extends React.Component {
   static propTypes = {
@@ -17,6 +18,10 @@ class Column extends React.Component {
 
   static propTypes = {
     title: PropTypes.node.isRequired,
+  };
+
+  static defaultProps = {
+    icon: settings.defaultColumnIcon,
   };
 
   // addCard(title) {
