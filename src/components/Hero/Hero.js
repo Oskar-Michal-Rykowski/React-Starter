@@ -10,6 +10,7 @@ const Hero = (props) => (
   </header>
 );
 
+//W obiekcie poniżej zapisujemy typy właściwości przekazywanych do obiektu. Zawsze musi nazywać sie propTypes. Ale po co definiować typy?
 Hero.propTypes = {
   titleText: PropTypes.node.isRequired,
   mainImage: PropTypes.node,

@@ -12,6 +12,7 @@ class List extends React.Component {
   //   columns: this.props.columns || [],
   // };
 
+  //W obiekcie poniżej zapisujemy typy właściwości przekazywanych do obiektu. Zawsze musi nazywać sie propTypes. Ale po co definiować typy?
   static propTypes = {
     title: PropTypes.node.isRequired,
     description: PropTypes.node,

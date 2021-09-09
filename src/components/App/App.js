@@ -27,3 +27,4 @@ class App extends React.Component {
 }
 
 export default App;
+//default zwalnia z importowania przy pomocy nawiasów klamrowych

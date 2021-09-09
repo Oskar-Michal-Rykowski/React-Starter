@@ -12,3 +12,7 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('app')
 );
+
+//ReactDOM zaimportowanymi z Reacta odpowiadają za wstawienie komponentu App (pierwszy arg) do wrapera z id app (drugi arg)
+//Provider jest elementem Reduxa!
+//Dzięki JSX nie musieliśmy dodawać "new" przy tylko piszemy < />
