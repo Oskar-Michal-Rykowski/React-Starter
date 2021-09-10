@@ -1,6 +1,6 @@
 //dzięki temu importowi poniżej mogę skorzystać z connetct wyjaśnienie przy connect
 import { connect } from 'react-redux';
-import App from './App';
+import Home from './Home';
 
 // mapStateToProps dopowiada za połączenie właściwości ze stanem aplikacji. Ta metoda została odziedziczona z Reduxa?
 const mapStateToProps = (state) => ({
@@ -9,5 +9,5 @@ const mapStateToProps = (state) => ({
   lists: state.lists,
 });
 
-export default connect(mapStateToProps)(App);
+export default connect(mapStateToProps)(Home);
 //connect odpowiada za połączenie ze storem (magazynem), czyli stanem aplikacji
