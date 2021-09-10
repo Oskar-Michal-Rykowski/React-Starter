@@ -7,7 +7,7 @@ export const settings = {
     defaultText: 'Add new item',
   },
   search: {
-    defaultText: 'Search...',
+    defaultText: 'Search....',
     icon: 'search',
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
