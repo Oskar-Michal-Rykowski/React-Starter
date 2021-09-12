@@ -8,7 +8,7 @@ import { settings } from '../../data/dataStore';
 
 class Search extends React.Component {
   static propTypes = {
-    history: PropTypes.node,
+    history: PropTypes.object.isRequired,
   };
 
   state = {
